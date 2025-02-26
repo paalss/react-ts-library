@@ -1,11 +1,14 @@
 {
-  "name": "vite-typescript-npm-package",
+  "name": "library",
   "version": "1.0.0",
   "description": "Vite TypeScript library npm package template",
   "author": "Jason Sturges <jason@jsonsturges.com> (https://jasonsturges.com)",
   "homepage": "https://github.com/jasonsturges/vite-typescript-npm-package",
   "repository": "github:jasonsturges/vite-typescript-npm-package",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@paalss"
+  },
   "keywords": [
     "vite",
     "typescript",
