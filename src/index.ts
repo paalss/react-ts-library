@@ -3,4 +3,4 @@
 //   return !!(n & 1);
 // };
 
-export {Button} from "./components/Button";
+export * from "./components/Button";
