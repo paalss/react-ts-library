@@ -1,6 +1,6 @@
 {
   "name": "@paalss/library",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Vite TypeScript library npm package template",
   "author": "Jason Sturges <jason@jsonsturges.com> (https://jasonsturges.com)",
   "homepage": "https://github.com/jasonsturges/vite-typescript-npm-package",
@@ -16,15 +16,8 @@
     "package"
   ],
   "main": "dist/index.cjs.js",
-  "module": "dist/index.es.js",
+  "module": "dist/index.umd.js",
   "types": "dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs",
-      "types": "./dist/index.d.ts"
-    }
-  },
   "type": "module",
   "files": [
     "dist"
